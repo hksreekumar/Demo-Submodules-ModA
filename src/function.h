@@ -13,7 +13,7 @@ public:
 
     //! Sample print member
     void print() {
-        std::cout<<">> printed from submodule A!";
+        std::cout<<">> printed from submodule A!\n";
     }
 };
 
