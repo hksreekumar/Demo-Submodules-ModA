@@ -1,5 +1,3 @@
-#include <iostream>
-
 class function
 {
 private:
@@ -12,15 +10,5 @@ public:
     ~function();
 
     //! Sample print member
-    void print() {
-        std::cout<<">> printed from submodule A!\n";
-    }
+    void print();
 };
-
-function::function(/* args */)
-{
-}
-
-function::~function()
-{
-}
